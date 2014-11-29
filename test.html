@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <script src="cloud.io.js" charset="utf-8">
+        </script>
+    </head>
+    <body>
+        <div id="name">
+            Hello World
+        </div>
+        <script charset="utf-8">
+        console.log(WebSocket)
+            var socket = new Socket("ws://terminal.matazure.com:4012")
+            socket.on("connection", function(){
+                socket.emit("test", "Hi cloud.io server.");
+            });
+        </script>
+    </body>
+
+</html>
